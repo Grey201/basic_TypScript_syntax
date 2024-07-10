@@ -1,0 +1,18 @@
+"use strict";
+let firstName = 'Vasy';
+let age = 34;
+let student = true;
+let grades = null;
+let gender = undefined;
+let mounths = ['December', 'January', 'February'];
+console.log(firstName, age, student, grades, gender, mounths);
+firstName = 'Bill';
+age = 25;
+mounths['1'] = 'April';
+console.log(firstName, age, student, grades, gender, mounths);
+let numbers = [12, 3, 4,];
+numbers.push(1);
+console.log(numbers.length);
+numbers.pop();
+numbers.sort((a, b) => a - b);
+console.log(numbers);
